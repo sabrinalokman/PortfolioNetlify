@@ -27,8 +27,8 @@ class Resume extends Component {
         return (
         <>
           <div className="specialIcon">
-          <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
-          <img className="iconSize" src = {theIcon}/>
+            <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
+            <img className="iconSize" src = {theIcon}/>
           </div>
         </>)
       })
