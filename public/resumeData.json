@@ -46,7 +46,7 @@
         "school": "University of Toronto",
         "degree": "Bachelor of Applied Science",
         "graduated": "June 2019",
-        "description": "Specialization in Mechatronics, Solid Mechanics and Design. Minor in Robotics and Mechatronics. \n Minor in Robotics and Mechatronics."
+        "description": "Specialization in Mechatronics, Solid Mechanics and Design.\\n Minor in Robotics and Mechatronics."
       }
     ],
     "work": [
