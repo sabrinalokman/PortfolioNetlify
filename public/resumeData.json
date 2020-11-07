@@ -2,14 +2,14 @@
   "main": {
     "name": "Sabrina Lokman",
     "occupation": "Engineer",
-    "description": "I'm really passionate in the holistic approach to systems hardware, software and control.",
+    "description": "Super passionate in the holistic approach to systems hardware, software and control.",
     "image": "Sabrina.png",
     "bio": "My name is Sabrina, I'm a Mechatronics Engineer. I'm currently working towards a new career path as a Software Engineer.",
     "contactmessage": "Get in touch with me to receive further details.",
     "email": "sabrina.lokman@mail.utoronto.ca",
-    "phone": "+1 647 XXX-XXXX",
+    "phone": "+1 (647) 861 0878",
     "address": {
-      "street": "123 Fake Street",
+      "street": "738 rue St Paul Ouest",
       "city": "Montréal",
       "state": "QC, Canada",
       "zip": "H3C 0N5"
@@ -46,26 +46,37 @@
         "school": "University of Toronto",
         "degree": "Bachelor of Applied Science",
         "graduated": "June 2019",
-        "description": "Specialization in Mechatronics, Solid Mechanics and Design. \n Minor in Robotics and Mechatronics."
+        "description": "Specialization in Mechatronics, Solid Mechanics and Design. Minor in Robotics and Mechatronics."
       }
     ],
     "work": [
       {
         "company": "Zimmer Biomet",
-        "title": "Systems Designer",
+        "title": "Systems V & V Engineer",
         "years": "June 2020 - Present",
         "description": "R&D on Computer Assisted Surgery"
       },
       {
-        "company": "Textron",
-        "title": "Mechanical Engineer",
-        "years": "Oct 2019 - Mar 2020",
+        "company": "TRU Simulation, Textron",
+        "title": "Mechanical Design Engineer",
+        "years": "Sep 2019 - Apr 2020",
+        "description": "Designed Boeing 737MAX cockpit for flight simulator"
+      },
+      {
+        "company": "Amaris Consulting",
+        "title": "Experienced Engineering Consultant",
+        "years": "Sep 2019 - Present",
         "description": "Designed Boeing 737MAX cockpit for flight simulator"
       }
+
     ],
     "skills": [
       {
         "name": "C++",
+        "level": "80%"
+      },
+      {
+        "name": "Embedded-C",
         "level": "80%"
       },
       {
@@ -81,6 +92,10 @@
         "level": "60%"
       },
       {
+        "name": "Javascript",
+        "level": "60%"
+      },
+      {
         "name": "Autodesk Fusion 360",
         "level": "90%"
       },
@@ -93,12 +108,12 @@
   "testimonials": {
     "testimonials": [
       {
-        "text": "Under Construction",
-        "user": "-"
+        "text": "I have always known Sabrina to be creative, hard-working and eager to learn. I have worked with a lot of young professionals, and she is the one who always asks for more challenges. Sabrina's skills as a Mechatronics Engineer with her determination and persistence in a project would be an asset to a team.",
+        "user": "Mandana Afrasiabi - Lead Electrical Engineer, Amaris Consulting"
       },
       {
-        "text": "Under Construction",
-        "user": "-"
+        "text": "I've worked with Sabrina on development projects and her contribution to the team have been great. Her focus and attention to details have been key to meet our design requirements within deadlines. Given how fast she learned and adapted to our culture, I am certain that her next team will be more than happy to have her in their team.",
+        "user": "Christian Michelin - Lead Mechanical Engineer, TRU Simulation, Textron"
       }
     ]
   }
