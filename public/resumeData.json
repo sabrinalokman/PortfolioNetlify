@@ -1,10 +1,8 @@
 {
   "main": {
     "name": "Sabrina Lokman",
-    "occupation": "Engineer",
-    "description": "Passionate in the holistic approach to systems hardware, software and control.",
     "image": "Sabrina.png",
-    "bio": "My name is Sabrina, I'm a Mechatronics Engineer. I love solving complex problem and currently I'm looking for opportunity in Software Development",
+    "bio": "My name is Sabrina, I'm a Mechatronics Engineer with two years of experience in Aerospace, Biomedical and Manufacturing Industry. I love solving complex problems and I thrive in a fast-paced environment.",
     "contactmessage": "Get in touch with me to receive further details.",
     "email": "sabrina.lokman@mail.utoronto.ca",
     "phone": "+1 (647) 861 0878",
@@ -40,21 +38,22 @@
     ]
   },
   "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
     "education": [
       {
         "school": "University of Toronto",
         "degree": "Bachelor of Applied Science",
         "graduated": "June 2019",
-        "description": "Specialization in Mechatronics, Solid Mechanics and Design.\nMinor in Robotics and Mechatronics.\nExtracurricular in University of Toronto Robotics Association (UTRA)"
-      },
+        "description": "Specialization in Mechatronics, Solid Mechanics and Design. Minor in Robotics and Mechatronics. Extracurricular in University of Toronto Robotics Association (UTRA)"
+      }
+    ],
+    "addCourse": [
       {
-        "school": "University of California San Diego | Coursera",
+        "school": "University of California San Diego",
         "degree": "Data Structures and Algorithms Specialization",
-        "graduated": "Nov 2020"
+        "graduated": "Dec 2020"
       },
       {
-        "school": "University Of Illinois at Urbana-Champaign | Coursera",
+        "school": "University Of Illinois at Urbana-Champaign",
         "degree": "Accelerated Computer Science Fundamentals Specialization",
         "graduated": "Oct 2020"
       }
@@ -62,7 +61,7 @@
     "work": [
       {
         "company": "Zimmer Biomet",
-        "title": "Systems V & V Engineer",
+        "title": "Systems Designer",
         "years": "June 2020 - Present",
         "description": "Primary V & V Engineer in iAssist Knee V2 Pod Solution"
       },
@@ -83,35 +82,28 @@
     "skills": [
       {
         "name": "C++",
-        "level": "80%"
+        "level": "80%",
+        "icon": "c++.svg"
       },
       {
         "name": "Embedded-C",
-        "level": "80%"
+        "level": "80%",
+        "icon": "c-programming.svg"
       },
       {
         "name": "Python",
-        "level": "60%"
+        "level": "60%",
+        "icon": "python.svg"
       },
       {
         "name": "Git",
-        "level": "60%"
-      },
-      {
-        "name": "HTML5 & CSS",
-        "level": "60%"
+        "level": "80%",
+        "icon": "git.svg"
       },
       {
         "name": "Javascript",
-        "level": "60%"
-      },
-      {
-        "name": "Autodesk Fusion 360",
-        "level": "90%"
-      },
-      {
-        "name": "Solidworks",
-        "level": "90%"
+        "level": "60%",
+        "icon": "javascript.svg"
       }
     ]
   },

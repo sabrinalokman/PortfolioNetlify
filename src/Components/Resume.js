@@ -10,6 +10,11 @@ class Resume extends Component {
         <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
         <p>{education.description}</p></div>
       })
+      var addCourse = this.props.data.addCourse.map(function(addCourse){
+        return <div key={addCourse.school}><h3>{addCourse.school}</h3>
+        <p className="info">{addCourse.degree} <span>&bull;</span><em className="date">{addCourse.graduated}</em></p>
+        <p>{addCourse.description}</p></div>
+      })
       var work = this.props.data.work.map(function(work){
         return <div key={work.company}><h3>{work.company}</h3>
             <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
@@ -17,8 +22,15 @@ class Resume extends Component {
         </div>
       })
       var skills = this.props.data.skills.map(function(skills){
+        var theIcon = "images/portfolio/"+skills.icon;
         var className = 'bar-expand '+skills.name.toLowerCase();
-        return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
+        return (
+        <>
+          <div className="specialIcon">
+          <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
+          <img className="iconSize" src = {theIcon}/>
+          </div>
+        </>)
       })
     }
 
@@ -34,6 +46,20 @@ class Resume extends Component {
             <div className="row item">
                <div className="twelve columns">
                  {education}
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div className="row education">
+         <div className="three columns header-col">
+            <h1><span>Additional Course</span></h1>
+         </div>
+
+         <div className="nine columns main-col">
+            <div className="row item">
+               <div className="twelve columns">
+                 {addCourse}
                </div>
             </div>
          </div>
@@ -60,9 +86,6 @@ class Resume extends Component {
          </div>
 
          <div className="nine columns main-col">
-
-            <p>{skillmessage}
-            </p>
 
 				<div className="bars">
 				   <ul className="skills">
