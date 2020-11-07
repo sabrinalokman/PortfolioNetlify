@@ -2,9 +2,9 @@
   "main": {
     "name": "Sabrina Lokman",
     "occupation": "Engineer",
-    "description": "I'm really passionate in the holistic approach to robotics hardware, software and control.",
+    "description": "I'm really passionate in the holistic approach to systems hardware, software and control.",
     "image": "Sabrina.png",
-    "bio": "My name is Sabrina, I'm a Mechatronics Engineer. I'm currently working towards a new career path as a Software Engineer. I'm doing this hackathon to learn more about React JS!",
+    "bio": "My name is Sabrina, I'm a Mechatronics Engineer. I'm currently working towards a new career path as a Software Engineer.",
     "contactmessage": "Get in touch with me to receive further details.",
     "email": "sabrina.lokman@mail.utoronto.ca",
     "phone": "+1 647 XXX-XXXX",
@@ -44,7 +44,7 @@
     "education": [
       {
         "school": "University of Toronto",
-        "degree": "Bachelor of Applied Science in Mechanical Engineering",
+        "degree": "Bachelor of Applied Science",
         "graduated": "June 2019",
         "description": "Specialization in Mechatronics, Solid Mechanics and Design. \n Minor in Robotics and Mechatronics."
       }
@@ -87,40 +87,6 @@
       {
         "name": "Solidworks",
         "level": "90%"
-      }
-    ]
-  },
-  "portfolio": {
-    "projects": [
-      {
-        "title": "MERN Stack WhatsApp Clone",
-        "category": "WhatsApp Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
-        "image": "whatsapp-mern.jpeg",
-        "url": "https://www.youtube.com/watch?v=gzdQDxzW2Tw"
-      },
-      {
-        "title": "MERN Stack TikTok Clone",
-        "category": "TikTok Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
-        "image": "tiktok-mern.jpeg",
-        "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
-      },
-      {
-        "title": "Facebook Clone with React",
-        "category": "Facebook Clone built with ReactJS",
-        "image": "facebook-clone.png",
-        "url": "https://www.youtube.com/watch?v=B-kxUMHBxNo"
-      },
-      {
-        "title": "Airbnb Clone",
-        "category": "Facebook Clone built with ReactJS",
-        "image": "airbnb-clone.jpeg",
-        "url": "https://www.youtube.com/watch?v=BtJeH_-XYaA"
-      },
-      {
-        "title": "Netflix Clone",
-        "category": "Facebook Clone built with ReactJS",
-        "image": "netflix-clone.jpeg",
-        "url": "https://www.youtube.com/watch?v=XtMThy8QKqU&t=9358s"
       }
     ]
   },
